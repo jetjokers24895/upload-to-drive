@@ -7,4 +7,4 @@ class env:
 	pathdir = os.getcwd()
 
 class test:
-	pathdir = "C:\Documents and Settings\Hong\My Documents\Downloads\data-upload"
+	pathdir = "{0}/test".format(env.pathdir)
